@@ -1,13 +1,13 @@
 {% set name = "spacetrack" %}
-{% set version = "1.4.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/spacetrack-{{ version }}.tar.gz
-  sha256: fe4b54c3dede0496a0ecc4039211481a25ae4fbd0eff5e54190441f0d4434c74
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/spacetrack-{{ version }}.tar.gz
+  sha256: 21435e87b756a2b4e49f7b98c6067419ad688a4775869a3c4b8b1c28b7a51593
 
 build:
   noarch: python
